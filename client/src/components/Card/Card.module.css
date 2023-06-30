@@ -1,0 +1,48 @@
+.card {
+
+    text-align: center;
+
+    /* width: 300px; */
+    width: 400px;
+    height: 500px;
+
+    margin: 10px;
+    padding: 20px;
+    background-color: hsl(213, 33%, 33%, 0.7);
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    /* text-align: center; */
+    flex: none;
+    color: black;
+    flex-basis: 25%;
+
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: box-shadow 0.6s ease-in-out;
+
+
+}
+
+.card:hover {
+    box-shadow: 0px 0px 500px rgb(255, 255, 255);
+    background-color: rgba(59, 57, 81, 0.748);
+    color: white;
+}
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .teams {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+  .image {
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
